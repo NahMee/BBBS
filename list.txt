@@ -2,5 +2,10 @@
 "https://github.com/NahMee/BBBS/blob/main/baits.js",
 "https://github.com/NahMee/BBBS/blob/main/bal.js",
 "https://github.com/NahMee/BBBS/blob/main/delserv.js",
-""
-]
+"https://github.com/NahMee/BBBS/blob/main/gimme-more-money.js",
+"https://github.com/NahMee/BBBS/blob/main/grow-pirate.js",
+"https://github.com/NahMee/BBBS/blob/main/hack-pirate.js",
+"https://github.com/NahMee/BBBS/blob/main/infilt.js",
+"https://github.com/NahMee/BBBS/blob/main/rubish.js",
+"https://github.com/NahMee/BBBS/blob/main/stock.js",
+"https://github.com/NahMee/BBBS/blob/main/weaken-pirate.js"]
