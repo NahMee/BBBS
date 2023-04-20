@@ -1,14 +1,27 @@
 /** @param {NS} ns */
-export async function main(ns) {
-
   //[COPY AND PASTE EVERYTHING INTO A NEW SCRIPT AND RUN IT]
-
-  const files = ["ap-hacknet-node.js", "baits.js", "bal.js", "delserv.js", "gimme-more-money.js",
-    "grow-pirate.js", "hack-pirate.js", "rubish.js", "stock.js", "weaken-pirate.js"
+export async function main(ns) {
+  const urls = [
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/ap-hacknet-node.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/baits.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/bal.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/delserv.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/gimme-more-money.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/grow-pirate.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/hack-pirate.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/infilt.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/rubish.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/stock.js",
+    "https://raw.githubusercontent.com/NahMee/BBBS/main/weaken-pirate.js"
   ];
+  
+  await ns.wget("https://raw.githubusercontent.com/NahMee/BBBS/main/list.txt", "list.txt");
+  const files = ns.read("list.txt").split("\n");
+  ns.rm("list.txt");
 
-  for (let i = 0; i < files.length; i++) {
-    await ns.wget("https://github.com/NahMee/BBBS.git", files[i]);
+  for (let i = 0; i < urls.length; i++) {
+    const file = files[i].trim();
+    const name = urls[i].split("/").pop();
+    await ns.wget(urls[i], name);
   }
-
 }
