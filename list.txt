@@ -1,0 +1,5 @@
+["https://github.com/NahMee/BBBS/blob/main/ap-hacknet-node.js",
+"https://github.com/NahMee/BBBS/blob/main/baits.js",
+"https://github.com/NahMee/BBBS/blob/main/bal.js",
+"https://github.com/NahMee/BBBS/blob/main/delserv.js"
+]
