@@ -1,7 +1,7 @@
 /** @param {NS} ns */
 export async function main(ns) {
 
-  //[COPY AND PASTE EVERYTHING INTO A SCRIPT AND RUN IT]
+  //[COPY AND PASTE EVERYTHING INTO A NEW SCRIPT AND RUN IT]
 
   const files = ["ap-hacknet-node.js", "baits.js", "bal.js", "delserv.js", "gimme-more-money.js",
     "grow-pirate.js", "hack-pirate.js", "rubish.js", "stock.js", "weaken-pirate.js"
