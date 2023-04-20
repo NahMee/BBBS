@@ -8,4 +8,5 @@
 "https://github.com/NahMee/BBBS/blob/main/infilt.js",
 "https://github.com/NahMee/BBBS/blob/main/rubish.js",
 "https://github.com/NahMee/BBBS/blob/main/stock.js",
-"https://github.com/NahMee/BBBS/blob/main/weaken-pirate.js"]
+"https://github.com/NahMee/BBBS/blob/main/weaken-pirate.js"
+]
